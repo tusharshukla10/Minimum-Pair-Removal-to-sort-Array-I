@@ -24,7 +24,7 @@ class Solution(object):
                 break
             
             # Find leftmost minimum sum pair
-            min_sum = float('inf')
+            min_sum = float('inf')    #use instead of this min_sum= nums[0} + nums[1] As a initial value 
             target_idx = 0
             
             for i in range(len(nums) - 1):
@@ -39,4 +39,5 @@ class Solution(object):
             
             self.j += 1
             
+
         return self.j
